@@ -1,16 +1,26 @@
-h1 {
-    color: red; /* màu chữ đỏ */
-    text-align: center; /* căn giữa */
-    font-size: 13px; /* cỡ chữ 13 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-p:first-of-type {
-    color: gold; /* màu chữ vàng */
-    font-size: 13px; /* cỡ chữ 13 */
-    font-family: Arial; /* font Arial */
+
+#vung1 {
+    background-color: yellow;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid orange;
 }
-p:last-of-type {
-    background-color: gold; /* màu nền vàng */
-    font-weight: bold; /* in đậm */
-    font-size: 13px; /* cỡ chữ 13 */
-    font-family: 'Times New Roman', serif; /* font Times New Roman */
+
+#vung2 {
+    background-color: lightblue; 
+    color: darkblue;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+}
+
+#vung3 {
+    background-color: lightcoral; 
+    color: #333;
+    padding: 15px;
+    border: 2px solid red;
 }
